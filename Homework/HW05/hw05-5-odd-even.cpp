@@ -20,15 +20,16 @@
 int main()
 {
     int num ;
-    printf("Input :") ;
-    scanf("%d", num ) ;
+    printf("Input :\n") ;
+    scanf("%d", &num ) ;
+    printf(" Output:\n" ) ;
     if (num % 2 == 1)
     {
         printf("%d is an odd integer", num ) ;
     }
     else if ( num % 2 == 0 )
     {
-        printf("is an even integer") ;
+        printf("%d is an even integer", num ) ;
     }
     return 0 ;
 }
